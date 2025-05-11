@@ -54,6 +54,7 @@ const WorldTimeConverter = () => {
     { name: 'Warsaw', timezone: 'Europe/Warsaw' },
     { name: 'Zurich', timezone: 'Europe/Zurich' },
     { name: 'San Jose', timezone: 'America/Los_Angeles' },
+    { name: 'Atlanta', timezone: 'America/New_York' },
     { name: 'Tel Aviv', timezone: 'Asia/Tel_Aviv' }
   ].sort((a, b) => a.name.localeCompare(b.name));
 
